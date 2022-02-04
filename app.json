@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Приложению необходим доступ к галерее чтобы Вы смогли выбрать фотографии"
+        }
+      ]
+    ],
     "name": "reprExample",
     "slug": "reprExample",
     "version": "1.0.0",
@@ -23,7 +31,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.laneboyandrew.reprExample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
